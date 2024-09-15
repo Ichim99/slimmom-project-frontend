@@ -11,7 +11,7 @@ import { persistor, store } from './redux/store';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-  <BrowserRouter basename="/react-homework-template">
+  <BrowserRouter basename="/slimmom-project-frontend">
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <ChakraProvider theme={customTheme}>
