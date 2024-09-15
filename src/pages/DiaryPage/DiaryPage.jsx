@@ -53,7 +53,7 @@ export default function DiaryPage() {
         <DiaryAddProductForm />
         {!isLoading ? (
           <>
-            <DiaryProductsList display='none' />
+            <DiaryProductsList display='absolute' />
             <Box display={{ xs: 'none', md: 'none' }}>
               <AddButton
                 type="click"

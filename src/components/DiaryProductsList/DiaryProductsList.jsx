@@ -27,7 +27,7 @@ export default function DiaryProductsList() {
   const currentDate = useSelector(selectCurrentDate);
   const token = useSelector(authSelectors.accessToken);
   const isGetDayInfo = useSelector(selectShallGetInfoOfDay);
-
+  console.log('Products List:', productsList);
   useEffect(() => {
     if (currentDate === null) return;
     if (token === null) return;
