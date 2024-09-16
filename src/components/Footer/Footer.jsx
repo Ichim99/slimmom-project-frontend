@@ -1,7 +1,7 @@
-import { FooterStyled, Team } from './Footer.styled';
+import { FooterStyled } from './Footer.styled';
 
 import { useEffect, useState } from 'react';
-import { IoMdClose } from 'react-icons/io';
+//import { IoMdClose } from 'react-icons/io';
 
 const Footer = () => {
   const [teamOpened, setTeamOpened] = useState(false);
